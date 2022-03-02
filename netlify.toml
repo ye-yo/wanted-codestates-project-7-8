@@ -1,5 +1,8 @@
 [[redirects]]
-from = "/proxy/*"
-  to = "https://www.chungbuk.go.kr/:splat"  
+  from = “/proxy/*”
+  to = “https://my-service.com/:splat"
   status = 200
-  force = true
+[[redirects]]
+  from = “/*”
+  to = “/index.html”
+  status = 200
